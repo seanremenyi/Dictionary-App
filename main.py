@@ -39,11 +39,12 @@ class Definition():
 def main():
     while True:
         user_input = input("What word do you want to look up: ")
-        if user_input == 'x':
+        if user_input == 'quit':
             break
         new = Definition(user_input)
         new.get_definition()
         print("************")
         print(new.word, new.definitions)
+        
 
 main()
