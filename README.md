@@ -4,6 +4,7 @@
 
 This is an application that uses the dictionary api to look up a word the user inputs and returns definition. Simple and straight to the point.
 
+The dictionary app will ask you constantly to enter a word, you can quit the program however by inputing the word "quit".
 
 ## Installing
 
